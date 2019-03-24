@@ -1,0 +1,345 @@
+body
+{
+	background-color: #C5D6BA;
+}
+body, p
+{
+	margin: 0;
+    padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1
+{
+	margin: 0;
+	padding: 5px;
+    margin-left: 20px;
+}
+
+hr
+{
+	margin: 0;
+}
+
+#container
+{
+    width: 400px;
+    height: 200px;
+    background-color: greenyellow;
+    margin: auto;
+    margin-top: 10%;
+	padding: 1px;
+	border: solid grey 1px;
+	border-radius: 5px;
+	box-shadow: 5px 8px 10px #888883;
+}
+
+#login
+{
+	width: 180px;
+    margin: auto;
+    margin-top: 7%;
+}
+
+#navBar
+{
+	background: -webkit-linear-gradient(0deg, #94EF09, #185A07); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(0deg, #94EF09, #185A07); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(0deg, #94EF09, #185A07); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(0deg, #94EF09, #185A07); /* Standard syntax (must be last) */
+	height: 80px;
+	border-bottom: 1px solid grey;
+}
+
+#navBar p
+{
+	font-size: 25px;
+    padding-top: 20px;
+	padding-left: 20px
+}
+#mainMenu
+{
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+	width: 550px;
+	margin-top: 5%;
+}
+.mainMenuButton .mainMenuButtonLink
+{
+	margin: 10px;
+	padding: 30px;
+	border: solid black 1px;
+	border-radius: 5px;
+	display: block;
+	text-align: center;
+}
+
+#navContainer
+{
+	display: inline-flex;
+    float: right;
+    margin: 0;
+    list-style-type: none;
+	margin-right: 20px;
+	font-size: 20px;
+}
+
+.navButtons
+{
+	border-right: solid black 2px;
+    text-align: center;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.navButtons:last-child 
+{
+    border:none;
+}
+
+.mainMenuButtonLink:link 
+{
+    color: black;
+	text-decoration: none;
+	background-color: #96E818;
+}
+
+.mainMenuButtonLink:visited 
+{
+    color: black;
+}
+
+.mainMenuButtonLink:hover 
+{
+    background-color: greenyellow;
+	color: white;
+}
+
+.mainMenuButtonLink:active 
+{
+    color: black;
+}
+.navButtonsLink:link 
+{
+    color: black;
+	text-decoration: none;
+	font-variant: small-caps;
+}
+
+.navButtonsLink:visited 
+{
+    color: black;
+}
+
+.navButtonsLink:hover 
+{
+	color: white;
+}
+
+.navButtonsLink:active 
+{
+    color: white;
+}
+
+#selected
+{
+	color: white;
+}
+
+#searchInputs
+{
+	padding: 10px;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+input.search
+{
+	width: 160px;
+}
+
+.categoryLabel
+{
+	padding-left: 25px;
+}
+
+table
+{
+	margin: 0 auto;
+	margin-top: 2%;
+	width: 1100px;
+}
+
+th, td
+{
+	width: 140px;
+	height: 50px;
+	border-bottom: solid black;
+}
+
+th
+{
+	background-color: grey;
+}
+
+.results
+{
+	font-size: 12px;
+	text-align: center;
+	border-spacing: 0;
+}
+
+#reserveBookSearchInput
+{
+	padding: 10px;
+    margin: 0 auto;
+    width: 600px;
+}
+
+#notAvailableError
+{
+	text-align: center;
+	font-size: 30px;
+    color: red;
+    padding: 50px
+}
+
+#reservationConfirmation
+{
+	text-align: center;
+	font-size: 30px;
+    color: red;
+    padding: 50px
+}
+
+input.regInput
+{
+	margin-top: 5px;
+}
+
+label.regLabel
+{
+	display: inline-block; 
+	width: 250px; 
+	text-align: right; 
+	margin-right: 10px;
+}
+
+input.regLabel
+{
+	display: inline-block; 
+	width: 150px; 
+	text-align: center; 
+	margin-top: 20px;
+}
+
+input.regLabel1
+{
+	margin-left: 250px;
+	margin-top: 20px;
+	float: left;
+}
+
+input.regLabel2
+{
+	margin-top: 20px;
+	float: left;
+	margin-left: 10px;
+}
+
+#regContainer
+{
+	padding-top: 2%;
+	width: 610px;
+	margin: 0 auto;
+	height: 350px;
+}
+
+span
+{
+	color: red;
+}
+p#req
+{
+	text-align: center;
+	margin-left: 90px;
+}
+
+p.error
+{
+	text-align: center;
+	color: red;
+	padding-left: 100px;
+}
+
+p#congrats
+{
+	text-align: center;
+    padding-top: 15%;
+}
+
+#confirmReg
+{
+	border: solid black 1px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#confirm
+{
+	text-align: center;
+}
+
+#confirmReg:link 
+{
+    color: black;
+	text-decoration: none;
+	font-variant: small-caps;
+	background-color: #96E818;
+}
+
+#confirmReg:visited 
+{
+    color: black;
+}
+
+#confirmReg:hover 
+{
+	color: white;
+	background-color: greenyellow;
+}
+
+#confirmReg:active 
+{
+    color: white;
+}
+p.loginError
+{
+	text-align: center;
+	color: red;
+	padding-top: 5px;
+}
+
+.paginating
+{
+	float: right;
+	margin-right: 150px;
+	margin-top: 10px;
+	
+}
+
+
+
+.paginating a:link, .paginating a:visited
+{
+	text-decoration: none;
+	color: green;
+}
+
+
+ 
+
+
+
+
